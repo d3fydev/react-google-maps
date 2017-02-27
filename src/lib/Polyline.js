@@ -31,6 +31,9 @@ const controlledPropTypes = {
   options: PropTypes.object,
   path: PropTypes.any,
   visible: PropTypes.bool,
+  strokeColor: PropTypes.string,
+  strokeOpacity: PropTypes.number,
+  strokeWeight: PropTypes.number,
 };
 
 const defaultUncontrolledPropTypes = addDefaultPrefixToPropTypes(controlledPropTypes);
